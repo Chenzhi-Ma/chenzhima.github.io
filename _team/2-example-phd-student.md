@@ -13,7 +13,7 @@ header:
 
 Short bio of the student goes here: research focus, background, and interests. You can include links such as:
 
-- **Email:** [name@huskers.unl.edu](mailto:name@huskers.unl.edu)
+- **Email:** [xxx](mailto:name@huskers.unl.edu)
 - **Research:** brief description of their project within the group.
 
 **Front matter fields you can set:**
