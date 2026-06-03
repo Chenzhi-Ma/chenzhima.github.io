@@ -1,0 +1,37 @@
+---
+layout: archive
+title: "Team"
+permalink: /team/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>Our group studies structural fire engineering, multi-hazard resilience, and computational mechanics. Meet the people behind the research.</p>
+
+{% assign roles = "Principal Investigator,Ph.D. Students,M.S. Students,Undergraduate Researchers,Alumni" | split: "," %}
+
+{% for role in roles %}
+  {% assign members = site.team | where: "role_group", role | sort: "order" %}
+  {% if members.size > 0 %}
+  <h2>{{ role }}</h2>
+  <div class="grid__wrapper">
+    {% for member in members %}
+    <div class="archive__item" style="margin-bottom: 1.5em;">
+      {% if member.header.teaser %}
+      <a href="{{ base_path }}{{ member.url }}">
+        <img src="{% if member.header.teaser contains '://' %}{{ member.header.teaser }}{% else %}{{ member.header.teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ member.title }}" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; float: left; margin-right: 1em;">
+      </a>
+      {% endif %}
+      <h3 class="archive__item-title" style="margin-top: 0;"><a href="{{ base_path }}{{ member.url }}">{{ member.title }}</a></h3>
+      {% if member.position %}<p style="margin: 0;"><strong>{{ member.position }}</strong></p>{% endif %}
+      {% if member.excerpt %}<p class="archive__item-excerpt">{{ member.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
+      <div style="clear: both;"></div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endfor %}
+
+<h2>Join Us</h2>
+<p>I am recruiting motivated Ph.D. students to join the group at the University of Nebraska&ndash;Lincoln starting <strong>Fall 2026</strong>. If you are interested in structural fire engineering, multi-hazard resilience, or computational mechanics, please email me at <a href="mailto:ma_cz@outlook.com">ma_cz@outlook.com</a> with your CV and a brief statement of interest. See the <a href="{{ base_path }}/research/">Research page</a> for more on available directions.</p>
