@@ -36,24 +36,6 @@ Research Interests
 * Wildland–urban interface (WUI) fire risk and spread modeling
 * Structural resilience under multiple hazards
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
 Awards & Honors
 ======
 * 2023 — Richard D. Hickman Fellowship, Johns Hopkins University
@@ -71,8 +53,3 @@ Service
 Peer Review
 ======
 Referee for *Journal of Structural Engineering (ASCE)*, *Fire Technology*, *Fire Safety Journal*, *International Journal of Wildland Fire*, *Journal of Computing in Civil Engineering*, *Progress in Engineering Science*, *Scientific Reports*, *Structures*, *Buildings*, and others.
-
-Patents
-======
-* CN209556487U — Novel steel bar metallic damper, Oct 2018
-* CN108678479A — Metallic damper using corner displacement, Nov 2019
