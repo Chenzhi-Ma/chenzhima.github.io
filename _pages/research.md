@@ -88,4 +88,4 @@ I am seeking motivated Ph.D. students to join my group at the **University of Ne
 - Computational structural mechanics and simulation
 - WUI fire risk and community resilience
 
-If you are interested, please send me an email at [ma_cz@outlook.com](mailto:ma_cz@outlook.com) with your CV, transcripts, and a brief statement of your research interests.
+If you are interested, please send me an email at [chenzhima26@gmail.com](mailto:chenzhima26@gmail.com) with your CV, transcripts, and a brief statement of your research interests.

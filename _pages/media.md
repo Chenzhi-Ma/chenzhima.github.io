@@ -35,4 +35,4 @@ For a full list of conference talks and seminars, see the [Talks page](/talks/).
 
 ## Press & Media Inquiries
 
-For interviews, expert commentary, or media requests, please contact me at [ma_cz@outlook.com](mailto:ma_cz@outlook.com).
+For interviews, expert commentary, or media requests, please contact me at [chenzhima26@gmail.com](mailto:chenzhima26@gmail.com).
